@@ -130,7 +130,7 @@ $(document).ready(function () {
         ucapanSalam = "Good Night Sayang"
         kata1 = "Awas kalo masih melek";
         kata2 = "Semoga mimpi indah";
-        kata3 = "Nite bby! ❤";
+        kata3 = "Good Night, Sayangg! ❤";
       } else {
         if (hSalam < 10) {
           ucapanSalam = "Pagi Sayangku~"
@@ -139,14 +139,14 @@ $(document).ready(function () {
           kata3 = "Semoga harimu menyenangkan, Lovee youu! ❤";
         } else {
           if (hSalam < 14) {
-            ucapanSalam = "Selamat Siang Sayangkohh"
-            kata1 = "Jangan lupa mkn siang";
+            ucapanSalam = "Selamat Siang Sayangkuu"
+            kata1 = "Jangan lupa makan siang";
             kata2 = "Makan yang banyakkk yh";
-            kata3 = "Biar ttp smgt meneruskan ½ hari ini";
+            kata3 = "Biar tetap semangat meneruskan ½ hari ini";
           } else {
             if (hSalam < 18) {
               ucapanSalam = "Selamat Sore ya Sayangku"
-              kata1 = "Sdh waktunya rehat n beberes nih";
+              kata1 = "Sudah waktunya rehat dan beberes nih";
               kata2 = "Kuharap kamu gak kecapekan yah";
               kata3 = "Take care dimanapun km berada! 🤗";
             } else {
