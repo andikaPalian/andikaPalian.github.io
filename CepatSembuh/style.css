@@ -14,7 +14,8 @@ body {
     background: #e91e63;
     padding: 60px 60px;
     color: #fff;
-    width: 25%;
+    max-width: 100%;
+    height: auto;
     text-align: center;
     margin: 25vh auto;
     position: relative;
