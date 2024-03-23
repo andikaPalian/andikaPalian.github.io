@@ -1,12 +1,17 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css");
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Lora';
     font-size: 17px;
     line-height: 1.5;
     background-color: #fff;
     background-image: url(abstract-seamless-heart-pattern-background-paper-vector-23399901.jpg);
-    width: 100%;
+    max-width: 100%;
     background-attachment: scroll;
 }
 
