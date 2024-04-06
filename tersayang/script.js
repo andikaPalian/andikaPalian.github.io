@@ -4,7 +4,7 @@ $(document).ready(function () {
      */
     var content = [{
         title: "Rezky Amalia Tersayangg❤️",
-        desc: "baca na sayang, pencetki tombol nextnya yang tanda panah di bawah itu kalau mau lanjut mu baca"
+        desc: "baca na sayang, pencetki tombol nextnya yang tanda panah di bawah itu kalau mau lanjut mu baca setiap selesai satu mu baca nextmi kalau masih ada tombol nextnya itu masih ada selanjutnya, semisal kayak lalotki atau lagki sabar na sayang hehe nantika kalau mu paksa pencet teru ta skipki"
     }, {
         title: "Terima Kasih Sayangkuu",
         desc: "terima kasih Liaa sudah mau terima dan sayang sama Dika walaupun Dika banyak kurangnya dan tidak ada yang bisa di banggakan dari Dika, tapi Liaa mau terima Dika jadi pasangannya Liaa, mau sayang sama Dika,jujur tidak nyangkaka waktu itu mu terimaka jadi pacarmu Liaa karena ku pikir siapa saya berharap bisa sama cewek hebat dan cantik kayak Liaa tapi ternyata mauko terima ka apa adanya mau sayang sama Dika, Terima Kasih Banyak Liaa Sayangkuuu"
