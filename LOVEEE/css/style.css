@@ -1,0 +1,127 @@
+:root {
+    --pink-color: #ff5873;
+    --hover-color: #A60657;
+    --background-color: #eccac2;
+    --before-color: #fff;
+}
+
+body {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: var(--pink-color);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px;
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+.textbox {
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    width: 300px;
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+.text {
+    margin-top: 5%;
+    font-size: 40px;
+
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    left: -50%;
+    position: relative;
+    display: inline-block;
+}
+
+.button {
+    background-color: var(--pink-color);
+    color: var(--before-color);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: 'Brush Script MT', cursive;
+    border-radius: 5px;
+  
+}
+
+.button:hover {
+    color: var(--hover-color);
+}
+
+.button:focus {
+    outline: none;
+}
+
+.btnbox {
+    margin-top: 30px;
+}
+
+.heart {
+    position: fixed;
+    top: -50px;
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .textbox {
+        width: 90%; 
+        padding: 20px; 
+    }
+
+    .title, .text {
+        font-size: 30px; 
+    }
+
+    .img {
+        width: 150px; 
+        height: 150px; 
+        margin: 0 auto;
+    }
+
+    .button {
+        font-size: 16px; 
+        padding: 8px 16px; 
+        width: auto; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 20px; 
+    }
+
+    .img {
+        width: 100px; 
+        height: 100px;
+        margin: 0 auto;
+    }
+}
