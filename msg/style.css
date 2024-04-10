@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #af4ca5;
+  }
+  
+  .letter {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #0e010c;
+    border-radius: 10px;
+    background-color: #fcf5fb;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
