@@ -25,7 +25,7 @@ $(document).ready(function () {
     },
     {
         title: "Ku Harap",
-        desc: "Ku harap rasa sayangmu ke saya tidak akan pernah berubah sayangggg, ayok kuatki untuk bisa hadapi tantangan, rintangan, ataupun masalah yang akan diberikan Tuhan untuk uji keseriusanta Sayanggg na, Selaluka berdoa itu agar harapan dan tujuanta bersama untuk ke jenjang yang lebih serius pernikahan menua bersama dan bahkan jika hanya nama ta tinggal didunia rasa sayangg dan cinta kita tidak pernah hilang atau pudar dan abadi selamanya Sayaangggg 'Aminnnn",
+        desc: "Ku harap rasa sayangmu ke saya tidak akan pernah berubah sayangggg, ayok kuatki untuk bisa hadapi tantangan, rintangan, ataupun masalah yang akan diberikan Tuhan untuk uji keseriusanta Sayanggg na, Sama-sama ki teruss na Liaa Sayanggkuuu sama-samaki jadi yang terbaik bukan mencari yang terbaik na sayanggggkuuuu, Selaluka berdoa itu agar harapan dan tujuanta bersama untuk ke jenjang yang lebih serius pernikahan menua bersama dan bahkan jika hanya nama ta tinggal didunia rasa sayangg dan cinta kita tidak pernah hilang atau pudar dan abadi selamanya Sayaangggg 'Aminnnn",
     },
     {
         title: "I LOVEEE YOUUUUU MOREEEEE, I LOVEEEEE YOUUUUU SOOOO MUCCHHHHH, I LOVEEE YOUUUUU FOREEVEERRRR REZKY AMALIA SAYANGGKUUUUU",
