@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selamat Datang, Kamu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f3f3;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        text-align: center;
+        max-width: 600px;
+      }
+      h1,
+      p {
+        color: #333;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+      }
+      p {
+        color: #555;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        display: none;
+      }
+      
+      img {
+        display: none;
+        max-width: 80%;
+        height: auto;
+        margin: auto;
+      }
+      .click-text {
+        display: none;
+        font-size: 1.2rem;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p id="text1" class="animate__animated animate__backInUp">Hallo Sayangkuu</p>
+      <p id="text2" class="animate__animated animate__backInUp">Aku Mau Bilang Sesuatu Ni...</p>
+      <p id="text3" class="animate__animated animate__backInUp">Tapi Sebelum Ituu..</p>
+      <p id="text4" class="animate__animated animate__backInUp">Ni..Bunga Buat Kamuu</p>
+      <p id="clickText" class="click-text animate__animated animate__shakeY">Klik Bunga</p>
+      <a href="gambar.html"><img src="gambar/bunga.png" alt="" id="text5" class="animate__animated animate__fadeIn" />
+      </div></a>
+
+    <script>
+      // Menampilkan teks satu per satu
+      function showText(id) {
+        var elements = document.querySelectorAll(".container p");
+        elements.forEach(function (element) {
+          element.style.display = "none";
+        });
+        var targetElement = document.getElementById(id);
+        targetElement.style.display = "block";
+      }
+
+      setTimeout(function () {
+        showText("text1");
+      }, 2000);
+      setTimeout(function () {
+        showText("text2");
+      }, 4000);
+      setTimeout(function () {
+        showText("text3");
+      }, 6000);
+      setTimeout(function () {
+        showText("text4");
+      }, 8000);
+      setTimeout(function () {
+        showText("text5"); // Menampilkan gambar
+        showText("clickText"); // Menampilkan teks "Klik gambar" setelah gambar muncul
+      }, 10000);
+    </script>
+  </body>
+</html>
