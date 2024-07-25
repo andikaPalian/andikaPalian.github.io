@@ -21,7 +21,7 @@ soundBtn.addEventListener("click", () => {
     // Membuat instance SpeechSynthesisUtterance dengan teks yang akan diucapkan
     let bicara = new SpeechSynthesisUtterance(`${quoteText.innerText} by ${ authorName.innerText}`);
     // Menggunakan SpeechSynthesis untuk mengucapkan teks
-    SpeechSynthesis.speak(bicara);
+    speechSynthesis.speak(bicara);
 });
 
 copyBtn.addEventListener("click", () => {
